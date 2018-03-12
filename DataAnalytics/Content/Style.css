@@ -1,0 +1,38 @@
+﻿.navbar {
+    width: 100%;
+    background-color: #466A8E;
+    width: -webkit-fill-available;
+    !important
+}
+
+.button {
+    background-color: #006DBF; /* Blue */
+    border: none;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Bonbon';
+    font-size: 22px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.jumbotron {
+    background-image: url("../Images/2.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.footer {
+    background-color: #40474F;
+    color: white;
+    font-size: 16px;
+    font-family: 'Comic Sans MS'
+}
