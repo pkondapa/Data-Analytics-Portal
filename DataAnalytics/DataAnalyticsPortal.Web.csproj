@@ -135,6 +135,7 @@
     <Content Include="Content\Style.css" />
     <Content Include="Default.aspx" />
     <Content Include="DescriptiveStatistics.aspx" />
+    <Content Include="DescriptiveStatisticsInfo.html" />
     <Content Include="ExploratoryDataAnalysis.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -148,6 +149,7 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Home.aspx" />
     <Content Include="Images\jumbobg.jpg" />
+    <Content Include="Images\sd.JPG" />
     <Content Include="ModelScores.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

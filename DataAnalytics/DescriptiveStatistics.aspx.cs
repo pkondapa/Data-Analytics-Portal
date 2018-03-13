@@ -38,6 +38,14 @@ namespace DataAnalytics
                 lblMessage.Text = "Please upload a CSV file";
                 lblMessage.ForeColor = System.Drawing.Color.Red;
             }
+
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Write("<script>");
+            Response.Write("window.open('DescriptiveStatisticsinfo.html','_blank','toolbar=no, location = no, status = no, menubar = no, scrollbars = yes, resizable = yes, width = 989, height = 650')");
+            Response.Write("</script>");
         }
     }
 }

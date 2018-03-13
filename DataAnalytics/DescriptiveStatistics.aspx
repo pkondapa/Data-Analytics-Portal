@@ -58,12 +58,15 @@
 
                 </div>
                 <div class="col-md-1">
-                    <asp:Button ID="Button2" runat="server" Text="i" CssClass="button" />
+                    <asp:Button ID="Button2" runat="server" Text="i" CssClass="button" OnClick="Button2_Click" />
                 </div>
             </div>
 
         </div>
     </form>
+    <div class="row space">
+
+    </div>
     <div class="footer">
         <div class="container">
         <div class="row">

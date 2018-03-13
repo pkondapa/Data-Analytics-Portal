@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Style.css" rel="stylesheet" />
+    <title>Descriptive Statistics Information</title>
+
+</head>
+<body>
+    <div class="well">
+        <h1>DESCRIPTIVE STATISTICS INFORMATION</h1>
+    </div>
+    <div class="container">
+    <div class="row">
+        <h2> Dataset Information</h2>
+    </div>
+    <div class="well">
+        <p><b>Number of variables: </b>Displays the total number of variables/columns in your dataset</p>
+        <p><b>Number of records: </b>Displays the total number of records/observations(rows) in your dataset</p>
+        <p><b>Total missing values(%): </b>Gives the percentage of missing values in the dataset which is given by <br/> (total number of values - total number of non-null values)/(total number of values)</p>
+
+    </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h2>Variables</h2>
+        </div>
+        <div class="well">
+            <p>For each variable in the dataset, it displays the type of the variable -- Numeric, Date, Text, Categorical and the percentage of missing values. 
+            If the variable is numeric, it displays the below statistical information: </p>
+            <div class="indent">
+                <p><b>1. Minimum Value: </b>The minimum value in the column</p>
+                <p><b>2. Maximum Value: </b>The maximum value in the column</p>
+                <p><b>3. Mean: </b>The average of the values in the column given by (sum_of_values)/(number_of_values)</p>
+                <p><b>4. Median:</b> The "middle" value in the list of numbers (values in the column arranged in an ascending order)</p>
+                <p><b>5. Standard deviation: </b>A measure that is used to quantify the amount of variation or dispersion of a set of data values.
+                A low standard deviation indicates that the data points tend to be close to the mean (also called the expected value) of the set, 
+                while a high standard deviation indicates that the data points are spread out over a wider range of values.</p>
+                <p><b>6. Quantile Statistics: </b> The three cut points that will divide a dataset into four equal-size groups</p>
+            </div>
+            <p>If the variable is not numeric, it displays the below variable information: </p>
+            <div class="indent">
+                <p><b>1. Count: </b>The number of non-null values in the column</p>
+                <p><b>2. Unique: </b>The number of unique values for the variable</p>
+                <p><b>3. Top: </b>The most frequent value in the column</p>
+                <p><b>4. Frequency: </b>Number of occurences of the most frequent value in the column</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <h2>Sample Data</h2>
+        </div>
+        <div class="well">
+            <p>It displays the first 5 rows in the dataset for a basic overview of the data.</p>
+        </div>
+    </div>
+</body>
+</html>
